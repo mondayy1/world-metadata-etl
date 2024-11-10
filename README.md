@@ -30,5 +30,8 @@ $ docker exec -it airflow-setup-airflow-webserver-1 airflow dags trigger world_m
 ```
 
 ## Query Example
+``` SQL
+SELECT * FROM myschema.world_information
+```
 <img width="625" alt="Screenshot 2024-11-10 at 9 54 54 PM" src="https://github.com/user-attachments/assets/a9912864-1eb3-4cac-825f-93e217c99444">
 
